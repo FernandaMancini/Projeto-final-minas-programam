@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet" />
+    <title>Adicionar Pet para Adoção</title>
+    <meta charset="utf-8"/>
+    <link href="./css/main2.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="fundo"></div>
+    <div class="header2"></div>
+    <div class="logo"></div>
+   
+            <label class="picture" for='picture_input' tabindex="0">
+                <span class="pictureImage">Choose an image</span></label>
+                <input type="file" accept="image/*" id="picture_input" /> 
+        <div class="caixa">
+            <ul><p> Informações do Pet</p> 
+            <li><label for="nome">Nome do Pet</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite o nome do Pet:*"></li>
+            <li><label for="idade">Idade do Pet</label>
+            <input type="text" id="idade" name="idade" required placeholder="Idade do Pet:*"></li>
+            <ul><p> Informações do Usuário</p>
+            <li><label for="email">Seu email:</label>
+            <input type='email' name="email" id="email" required placeholder="email:*" ></input></li>
+            <li><label for="tel">Seu telefone de contato:</label>
+            <input type='tel' name="tel" id="tel" required placeholder="telefone:*" ></input></li>
+        </div>
+
+        <div class="sexo">
+            <span>Selecione o sexo do Pet</span><label>
+            <ul><li><input type="radio" name="sexo" value="Fêmea" checked>Fêmea
+            <input type="radio" name="sexo" id="Macho" value="Macho">Macho</li></ul>
+        </label>
+        </div>    
+        <div class="caixa">
+            <label for="description">Fale um pouco do seu Pet:</label>
+            <textarea row= '6'type='description'name="description" id="description" placeholder="Descrição:" ></textarea>
+        </div >
+
+        <button type="submit" class="button">Enviar</button>
+    </form>
+
+</body>
+</html>
