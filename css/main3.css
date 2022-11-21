@@ -65,7 +65,8 @@ body {
     padding: 0.2em 0.6em;
     box-shadow: 2px 2px 2px #f797b2;
     text-shadow: 1px 1px 1px #353535;
-    font: 1em Indie Flower;
+    font-size: 20px;
+    font-family: Indie Flower;
     text-align: center center;
     cursor: pointer;
     text-decoration-line: none;
