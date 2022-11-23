@@ -70,6 +70,34 @@ body {
   left: 380px;
   background: url(../images/logo.png) center center / cover no-repeat;
 }
+.container{
+  width: 1350px;
+  height: 160px;
+  background-color: #D9D9D9;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 22px;
+  border-radius: 20px;
+}
+.item{
+  width: 130px;
+  height: 130px;
+  background: url("../images/cachorro1.jpg");
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  overflow: hidden;
+  margin: 0.5em;
+ margin-top:0.4em ;
+}
+.lidados{
+list-style: none;
+font-size: 30px;
+margin: 0.5em;
+}
 .caixa{
   border: 0;
   font-size: 0.8em;
@@ -85,3 +113,86 @@ body {
   padding-right: 1em;
   font-family: sans-serif;
 }
+fieldset{
+  border: 0;
+  margin-left: 41%;
+  
+ }
+ .caixa{
+  margin-left: 1%;
+  margin-top: 2px;
+  margin-bottom: 1%;
+  justify-content: left;
+ }
+ .caixa input[type='text'], .caixa textarea, .caixa input[type='email'], .caixa input[type='tel'] {
+  list-style:none;  
+  padding: 0.2px;
+  border: 1px solid #FFBBF0;
+  box-shadow: 2px 2px 2px #f797b2;
+  display: block;
+  font-family: Indie Flower;
+ }
+ li{
+  list-style:none;  
+  color: #4d4d4d;
+  display: table-cell;
+  padding: 5px;
+ }
+ .caixa textarea{
+  width: 326px;
+  height: 171px;
+  border-radius: 5px;
+ }
+ .sexo{
+  display: absolute;   
+
+  justify-content: center; 
+ }
+ #picture_input{
+    display: none;
+ }
+ .picture{
+  width: 200px;
+  aspect-ratio: 16/9;
+  background: #fedeff;
+  display: flex;
+  align-items: center;
+  text-align: center center;
+  font-size: 0.8em;
+  justify-content: center;
+  color: #000;
+  border: 2px dashed #aaa;
+  margin-left: 1%;
+  margin-top: 45%;
+  margin-bottom: 1%;
+  border-radius: 5px;
+  cursor: pointer;
+  
+  
+ }
+ .button {
+  width: 90px;
+  height: 30px;  
+  font-size: 0.8em;
+  background: #FFBBF0;
+  border: 0;
+  margin-bottom: 1em;
+  color: #4d4d4d;
+  padding: 0.2em 0.6em;
+  box-shadow: 2px 2px 2px #f797b2;
+  text-shadow: 1px 1px 1px #353535;
+  position: absolute;
+  top: 225%;
+  left: 60%;
+  bottom: 2%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font: 0.6em Indie Flower;
+  text-align: center center;
+  cursor: pointer;
+ }
+ .button:hover{
+  background: #e9e3e8;
+  box-shadow: inset 2px 2px 2px #d2d1d2;
+  text-shadow: none;
+ }

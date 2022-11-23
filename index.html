@@ -16,6 +16,40 @@
             <a class="texto1" href="index3.html">Adote um pet</a>
             <a class="texto2" href="index2.html">Adicionar pet para adoção</a>
             <div class="logo"></div>
+        
         </div>
+        <div class="container">
+            <div class="item">
+            </div>
+            <div >
+              <ul class="lidados"><li >Nome: Jorginho</li><li>Idade: 2 anos</li><li>Sexo: Macho</li></ul>
+            </div>
+
+ 
+    <div class="caixa">
+        <label class="picture" for='picture_input' tabindex="0">
+            <span class="pictureImage">Choose an image</span></label>
+            <input type="file" accept="image/*" id="picture_input" /> 
+        <ul><p> Informações do Pet</p> 
+        <li><label for="nome">Nome do Pet</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite o nome do Pet:*"></li>
+        <li><label for="idade">Idade do Pet</label>
+        <input type="text" id="idade" name="idade" required placeholder="Idade do Pet:*"></li>
+        <ul><p> Informações do Usuário</p>
+        <li><label for="email">Seu email:</label>
+        <input type='email' name="email" id="email" required placeholder="email:*" ></input></li>
+        <li><label for="tel">Seu telefone de contato:</label>
+        <input type='tel' name="tel" id="tel" required placeholder="telefone:*" ></input></li>
+        <span>Selecione o sexo do Pet</span><label>
+            <ul><li><input type="radio" name="sexo" value="Fêmea" checked>Fêmea
+            <input type="radio" name="sexo" id="Macho" value="Macho">Macho</li></ul>
+        </label>
+        <label for="description">Fale um pouco do seu Pet:</label>
+        <textarea row= '6'type='description'name="description" id="description" placeholder="Descrição:" ></textarea>
+    <button type="submit" class="button">Enviar</button>
+</form>
+    </div>
+    
+<script src="javascript.js"></script>
     </body>
 </html>
